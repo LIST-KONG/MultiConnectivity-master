@@ -3,6 +3,7 @@
 
 ###  Model Architecture
 
+![model](https://user-images.githubusercontent.com/88756798/221081349-dcbdbaf9-414e-4be3-94f9-3e1ed6f3f33f.png)
 
 ###   Code Description
 
@@ -10,6 +11,7 @@ Our code can be found in the Model-run folder.
 
 - graphcnn/: definitation of the proposed model
 - main_gcn_lstm: test the performance of saved models
+
 
 Run `graphcnn/setup/dti_fmri_pre_process.py` to preprocess the data and run `main_gcn_lstm.py` to test the performance of the proposed method.
 
