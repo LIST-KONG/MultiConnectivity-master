@@ -1,4 +1,4 @@
-##  Multi-Connectomes Fusion Network for Major Depressive Disorder Diagnosis
+##  Multi-Connectivity Representation Learning Network for Major Depressive Disorder Diagnosis
 
 
 ###  Model Architecture
