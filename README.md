@@ -3,7 +3,7 @@
 
 ###  Model Architecture
 
-![model](https://user-images.githubusercontent.com/88756798/221081349-dcbdbaf9-414e-4be3-94f9-3e1ed6f3f33f.png)
+![model](https://user-images.githubusercontent.com/88756798/235379728-ec6bb80e-b18e-4090-b260-1e7f645b08e3.png)
 
 ###   Code Description
 
