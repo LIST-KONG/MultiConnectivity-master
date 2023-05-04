@@ -124,8 +124,8 @@ class GraphCNNNetwork(object):
             dti_self = make_graphcnn_layer(self.DTI_V, self.DTI_A, no_filters, name=None)
             fmri_share, dti_share = make_am_gcn_layer(self.fMRI_V, self.fMRI_A, self.DTI_V, self.DTI_A, no_filters,
                                                       name=None)
-            self.fMRI_V = (fmri_share + fmri_self)/2
-            self.DTI_V = (dti_share + dti_self)/2
+            self.fMRI_V = tf.concat([fmri_share, fmri_self], axis=2)
+            self.DTI_V = tf.concat([dti_share, dti_self], axis=2)
 
             self.loss = self.loss + tf.nn.l2_loss(fmri_share-dti_share)
 
